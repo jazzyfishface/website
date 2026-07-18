@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="style.css">
+    <title>JAZcraft</title>
+</head>
+<body>
+ <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="about.html">About</a>
+</div>
+<h1>Catch the Fish</h1>
+<p>score: <span id="score">0</span></p>
+<button id="fish">🐟</button>
+
+<script>
+    let score = 0;
+    function catchFish() {
+        score = score + 1;
+        moveFish();
+        document.getElementById("score").textContent = score;
+    }
+    document.getElementById("fish").onclick = catchFish;
+    function moveFish() {
+    let fish = document.getElementById("fish");
+    fish.style.left = Math.random() * 80 + "%";
+    fish.style.top = Math.random() * 80 + "%";
+    setInterval(moveFish, 1000);
+}
+</script>
+ <div class="footer-nav">
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="about.html">About</a>
+</div>
+</body>
+</html>

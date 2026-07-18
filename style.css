@@ -1,0 +1,55 @@
+body {
+    font-family: Futura, sans-serif;
+    background-color: rgba(104, 205, 185, 0.7);
+    color: #393939;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+h1 {
+    color: #b48e8e;
+    font-size: 3em;
+}
+h2 {
+    color: #abcc97;
+    font-size: 2em;
+}   
+img {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    border: none;
+    max-width: 100%;
+    height: 1200px;
+}
+.nav {
+    background-color: #393939;
+    padding: 20px 0;
+}
+.nav a {
+    color: #68cdb9;
+    text-decoration: underline;
+    margin: 0 12px;
+}
+.footer-nav {
+    background-color: #393939;
+    padding: 20px 0;
+}
+.footer-nav a {
+    color: #68cdb9;
+    text-decoration: underline;
+    margin: 0 12px;
+}
+#fish {
+    position: absolute;
+    font-size: 2em;
+    transition: left 0.4s, top 0.4s;
+}
+html {
+    scroll-behavior: smooth;
+    background-image: url("2026-0716_tonedbluepaper_16_edit-3-copy.png");
+    background-size: cover;
+    background-position: center;   
+}
