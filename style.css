@@ -26,6 +26,9 @@ img, video {
     max-width: 100%;
     height: auto;
 }
+.hero {
+    max-width: 500px;
+}
 iframe {
     border: none;
     max-width: 100%;
