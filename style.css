@@ -77,3 +77,21 @@ html {
         grid-template-columns: 1fr;
     }
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: var(--s3);
+}
+.gallery figure {
+    margin: 0;
+    background: rgba(244, 239, 225, 0.85);
+    padding: var(--s2);
+}
+.gallery img {
+    width: 100%;
+    display: block;
+}
+.gallery figcaption {
+    margin-top: var(--s1);
+    font-size: 0.85em;
+}
