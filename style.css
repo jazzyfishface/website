@@ -6,7 +6,7 @@
     --s5: 76px;
 }
 body {
-    font-family: Futura, sans-serif;
+    font-family: "PT Serif", Georgia, serif;
     background-color: rgba(232, 230, 225, 0.8);
     color: #26241f;
     text-align: center;
@@ -15,10 +15,12 @@ body {
     padding: 40px;
 }
 h1 {
+    font-family: "IM Fell Great Primer", Georgia, serif;
     color: #2456c4;
-    font-size: 3em;
+    font-size: 2.4em;
 }
 h2 {
+    font-family: "IM Fell Great Primer", Georgia, serif;
     color: #c0357f;
     font-size: 2em;
 }   
