@@ -53,7 +53,7 @@ iframe {
 }
 html {
     scroll-behavior: smooth;
-    background-image: url("2026-0716_tonedbluepaper_16_edit-3-copy.png");
+    background-image: url("2026-0716_tonedbluepaper_16_edit-5_web.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -63,7 +63,7 @@ html {
     gap: var(--s3);
 }
 .card {
-    background-color: rgba(244, 239, 225, 0.85);
+    background-color: rgba(232, 230, 225, 0.6);
     border-style: solid;
     border-width: 30px;
     border-image-source: url("2026-0730_card-frame-square_1.png");
