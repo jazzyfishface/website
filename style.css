@@ -29,10 +29,10 @@ img, video {
     height: auto;
 }
 .hero {
-    max-width: 500px;
+    max-width: min(500px, 100%);
 }
 .logo {
-    max-width: 450px;
+    max-width: min(450px, 100%);
 }
 iframe {
     border: none;
@@ -75,6 +75,9 @@ html {
     text-align: left;
 }
 @media (max-width: 700px) {
+    body {
+        padding: 20px;
+    }
     .cards {
         grid-template-columns: 1fr;
     }
@@ -96,4 +99,55 @@ html {
 .gallery figcaption {
     margin-top: var(--s1);
     font-size: 0.85em;
+}
+.rsvp {
+    display: block;
+    max-width: 500px;
+    margin: var(--s2) auto var(--s2);
+    padding: var(--s3) var(--s2);
+    box-sizing: border-box;
+    background-color: #2456c4;
+    color: #f4efe1;
+    font-family: "IM Fell Great Primer", Georgia, serif;
+    font-size: 2em;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.rsvp:hover {
+    background-color: #c0357f;
+}
+.event {
+    max-width: 500px;
+    margin: var(--s3) auto 0;
+    text-align: left;
+}
+.event .block {
+    margin-bottom: var(--s3);
+}
+.event p {
+    margin: 4px 0;
+    line-height: 1.45;
+}
+.event p:first-child:not(:only-child) {
+    font-weight: 700;
+}
+.dm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--s1);
+    max-width: 500px;
+    margin: 0 auto var(--s4);
+}
+.dm a {
+    display: block;
+    padding: var(--s2) var(--s1);
+    background-color: #c0357f;
+    color: #f4efe1;
+    font-family: "IM Fell Great Primer", Georgia, serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.dm a:hover {
+    background-color: #2456c4;
 }
